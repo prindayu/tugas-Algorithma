@@ -1,0 +1,16 @@
+START
+
+STORE "nilai-awal" as integer with value `0 - 100`
+STORE "nilai-awal=n"
+INPUT "nilai-awal" under 70 PRINT Tidak Lulus
+
+IF "n>=70" 
+DISPLAY Lulus
+
+ELSE "n<=69" 
+DISPLAY tidak lulus
+
+ELSE IF 'n-2>=70' is MULTIPLES of 5
+DISPLAY lulus
+
+END

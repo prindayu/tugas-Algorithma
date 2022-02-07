@@ -1,0 +1,23 @@
+START
+
+n = 30
+
+STORE "n" WITH any NUMBERS
+STORE 1 as the first NUMBER of "n"
+STORE "nilai-asli" from 1 to "n"
+
+
+
+IF "n" is MULTIPLES of 3
+DISPLAY "FIZZ"
+
+ELSE IF "n" is MULTIPLES of 5
+DISPLAY "Buzz"
+
+ELSE "n" is multiplies of both 3 and 5
+DISPLAY "FizzBuzz"
+
+ELSE 
+DISPLAY  n
+
+END

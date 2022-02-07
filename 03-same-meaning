@@ -1,0 +1,17 @@
+START
+
+STORE "PALINDROME" WITH TYPE of STRING 
+STORE "input-user" 
+STORE "input=i"
+
+n = length(input)
+i=1
+while(i<=n/2)&&(palindrome)
+
+IF "input-user" is (n=i+1)
+DISPLAY True (palindrome)
+
+ELSE 
+DISPLAY False (not palindrome)
+
+END

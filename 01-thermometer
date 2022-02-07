@@ -1,0 +1,15 @@
+START
+
+INPUT "Besar-temperatur" WITH any NUMBERS
+INPUT "type-temperatur" WITH any type of STRING 
+
+IF type is "fahrenheit"
+DISPLAY  ("Besar-temperatur" - 32) * (5/9)
+
+ELSE IF type is "kelvin"
+DISPLAY ("Besar-temperatur" - 273.15)
+
+ELSE 
+DISPLAY "Besar-temperatur"
+
+END
